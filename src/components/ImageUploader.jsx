@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
 import { supabase } from "../utils/supabase";
 import { v4 as uuidv4 } from "uuid";
-=======
-import { supabase } from "../supabase";
-import { v4 as uuidv4 } from "uuid"; // Pastikan Anda sudah npm install uuid
->>>>>>> teman/main
+
 
 // ⭐ Ganti dengan NAMA BUCKET Anda yang BENAR dan sama persis
 const BUCKET_NAME = "menu-buckets";
